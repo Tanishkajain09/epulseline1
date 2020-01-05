@@ -1,0 +1,30 @@
+<?php
+$name=$_POST['name'];
+//echo $name;
+$fname=$_POST['fname'];
+//echo $fname;
+$email=$_POST['email'];
+//echo $email;
+$password=$_POST['pas'];
+//echo $password;
+$timing=$_POST['time'];
+//echo $timing;
+$fee=$_POST['fees'];
+//echo $fee;
+$file=$_FILES['file']['name'];
+//echo $file;
+$tempname=$_FILES['file']['tmp_name'];
+$location="doctor/";
+$address=$_POST['ad'];
+//echo $adress;
+$mobile=$_POST['mb'];
+//echo $mobile;
+$special=$_POST['c'];
+//echo $special;
+$gender=$_POST['a'];
+//echo $gender;
+include("connect.php");
+$query="insert into tb_d(name,fname,email,password,mobile_number,gender,fee,timing,speciality,upload_photo,address,date)values('$name','$fname','$email','$password','$mobile','$gender','$fee','$timing','$special','$file','$address',now())";
+mysql_query($query);
+header("Location:doctor.php");
+?>
