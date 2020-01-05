@@ -1,0 +1,273 @@
+#outer
+{
+	height:auto;
+	width:100%;
+	border:1px solid transparent;
+	float:left;
+}
+#head
+{
+	height:400px;
+	width:100%;
+	float:left;
+	/*background-image:url("../images/Online-Appointment-Hospital-Banner.png");*/
+	background-attachment:fixed;
+	background-repeat:no repeat;
+	background-position:fixed;
+	
+}
+#menu
+{
+	height:100px;
+	width:100%;
+	background: rgba(0,0,0,0.1);
+	float:left;
+	margin-top:-500px;
+	/*margin-top:-1014px;*/
+
+	
+	
+}
+#menu ul 
+{
+list-style-type:none;
+/*margin-left:300px;*/
+}
+#menu ul li
+{
+	display:inline;
+    padding:5px;
+	line-height:40px;
+	margin-left:20px;
+	
+}
+#menu ul li a 
+{
+	color:black;
+   text-decoration:none;
+   font-family:calibri;
+   color:#1c4293;
+   margin-left:30px;
+   font-size:20px;
+}
+#menu ul li:hover
+{
+   background-color:#d4dce9;
+   
+}
+#special
+{
+	height:150px;
+	width:100%;
+	margin-top:100px;
+	border:1px solid transparent;
+	float:left;
+}
+#container
+{
+height:500px;
+width:100%;
+float:left;
+border:2px solid transparent;
+margin-top:-152px;
+
+}
+#app
+{
+	height:400px;
+	width:100%;
+	border:1px solid transparent;
+	float:left;
+}
+#img1
+{
+	height:200px;
+	width:15%;
+	border:4px solid white;
+	
+	margin-left:90px;
+	margin-top:-700px;
+	float:left;
+}
+#img2
+{
+	height:200px;
+	width:15%;
+	border:3px solid white;
+	
+	margin-left:390px;
+	margin-top:-700px;
+	float:left;
+}
+#img3
+{
+	height:200px;
+	width:15%;
+	border:3px solid white;
+
+	margin-left:690px;
+	margin-top:-700px;
+	float:left;
+}
+#img4
+{
+	height:200px;
+	width:15%;
+	border:3px solid white;
+	
+	margin-left:995px;
+	margin-top:-700px;
+	float:left;
+}
+
+#team
+{
+	height:400px;
+	width:400px;
+	border:1px solid transparent;
+	margin-top:50px;
+	margin-left:30px;
+		float:left;
+}
+#up
+{
+	height:400px;
+	width:100%;
+	background-color:#808080;
+	float:left;
+	margin-top:15px;
+	
+}
+#fi
+{
+	height:250px;
+	width:20%;
+	background-color:#808080;
+	margin-top:50px;
+	margin-left:30px;
+	float:left;
+}
+#fi a
+{
+	text-decoration:none;
+	color:white;
+	font-family:calibri;
+	font-size:19px;
+	margin-left:75px;
+}
+#fi p
+{
+	text-align:justify;
+	color:white;
+	font-family:calibri;
+	font-size:19px;
+}
+#dn
+{
+	height:250px;
+	width:20%;
+	background-color:#808080;
+	margin-top:50px;
+	margin-left:110px;
+	float:left;
+
+}
+
+#dn a
+{
+	text-decoration:none;
+	color:white;
+	font-family:calibri;
+	font-size:20px;
+}
+#dn ul li
+{
+	list-style-type:none;
+}
+#dn ul li a 
+{
+	text-decoration:none;
+	margin-left:-35px;
+}
+#hn
+{
+	height:250px;
+	width:20%;
+	background-color:#808080;
+	margin-top:50px;
+	margin-left:50px;
+	float:left;
+	
+
+}
+#hn a
+{
+	text-decoration:none;
+	color:white;
+	font-family:calibri;
+	font-size:20px;
+}
+#hn ul li
+{
+	list-style-type:none;
+}
+#hn ul li a 
+{
+	text-decoration:none;
+	margin-left:-35px;
+}
+#con
+{
+	height:250px;
+	width:20%;
+	background-color:#808080;
+	margin-top:50px;
+	margin-left:50px;
+	float:left;
+
+}
+#con a
+{
+	text-decoration:none;
+	color:white;
+	font-family:calibri;
+	font-size:20px;
+}
+#con ul li
+{
+	list-style-type:none;
+}
+#con ul li a 
+{
+	text-decoration:none;
+	margin-left:-35px;
+}
+#footer
+{
+	height:50px;
+	width:100%;
+	background-color:#808080;
+	opacity:0.9px;
+	float:left;
+}
+#left
+{
+	height:50px;
+	width:100%;
+	float:left;
+	margin-left:10px;
+	font-family:calibri;
+	color:lightgrey;
+	font-size:18px;
+}
+#right
+{
+	height:50px;
+	width:200px;
+	float:right;
+	margin-left:50px;
+	font-family:calibri;
+	color:lightgrey;
+	font-size:18px;
+    border:1px solid transparent;
+}	

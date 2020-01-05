@@ -1,0 +1,79 @@
+#outer
+{ 
+   height:auto;
+   width:100%;
+   background-image:url("../images/kit.jpg");
+   float:left;
+}
+#menu
+{
+	height:100px;
+	width:100%;
+	background:rgba(0,0,0,0.2);
+    float:left;	
+}
+#menu ul 
+{
+list-style-type:none;
+margin-left:00px;
+}
+#menu ul li
+{
+	display:inline;
+    padding:20px;
+	line-height:60px;
+	margin-left:-10px;
+	
+}
+#menu ul li a 
+{
+	
+   text-decoration:none;
+   font-family:calibri;
+   color:white;
+   font-size:22px;
+   margin-left:0px;
+}
+#menu ul li:hover
+{
+   background-color:#e0d2c5;
+   
+}
+#sess h2
+{
+	color:white;
+	font-size:50px;
+	margin-top:50px;
+}
+#block
+{
+	height:800px;
+	width:100%;
+	margin-top:-10px;
+	margin-left:;
+	float:left;
+	background:rgba(0,0,0,0.2);
+    color:white;
+	font-family:roboto;
+	font-size:30px;
+}
+#footer
+{
+	height:50px;
+	width:100%;
+	background-color:grey;
+	float:left;
+}
+#left
+{
+	height:50px;
+	width:80%;
+	float:left;
+}
+#right
+{
+	height:50px;
+	width:20%;
+	
+	float:right;
+}

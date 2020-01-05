@@ -1,0 +1,94 @@
+#outer
+{
+	height:auto;
+	width:100%;
+	border:1px solid;
+	background-image:url('../images/tech-predictions.jpg');
+	background-size:cover;
+	background-attachment:fixed;
+	float:left;
+}
+#menu
+{
+	height:70px;
+	width:100%;
+	border:1px solid transparent;
+	float:left;
+    background-color:rgba(0,0,0,0.6);
+	
+	
+	
+	
+}
+#menu ul 
+{
+list-style-type:none;
+margin-left:-50px;
+}
+#menu ul li
+{
+	display:inline;
+    padding:20px;
+	margin-left:50px; 
+	line-height:50px;
+	
+}
+#menu ul li a 
+{
+	color:white	;
+   text-decoration:none;
+   font-family:calibri;
+  font-style:bold;
+   font-size:19px;
+}
+#menu ul li:hover
+{
+   background-color:#588bd8;
+}
+#form
+{
+	height:400px;
+	width:500px;
+	background-color:rgba(0,0,0,0.5);
+	float:left;
+	margin-left:450px;
+	margin-top:100px;
+	color:white;
+	font-family:calibri;
+	font-size:25px;
+	border-radius:50px;
+}
+#footer
+{
+	height:50px;
+	width:100%;
+	background-color:#808080;
+	
+	opacity:0.9px;
+	float:left;
+	border:1px solid transparent;
+}
+#left
+{
+	height:50px;
+	width:80%;
+	
+	float:left;
+	margin-left:10px;
+	font-family:calibri;
+	color:lightgrey;
+	font-size:18px;
+}
+#right
+{
+	height:50px;
+	width:20%;
+	float:right;
+	
+	margin-right:-200px;
+	font-family:calibri;
+	color:lightgrey;
+	font-size:18px;
+	border:1px solid transparent;
+
+}

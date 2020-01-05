@@ -1,0 +1,52 @@
+ #outer
+ {
+	 height:auto;
+	 width:100%;
+	 background-image:url('../images/kit.jpg');
+	 background-attachment:fixed;	
+	 background-size:cover;
+	
+	 float:left;
+}
+#menu
+{
+	
+	height:90px;
+	width:100%;
+	float:left;
+    background-color:rgba(0,0,0,0.4);
+	
+}
+#menu ul 
+{
+list-style-type:none;
+margin-top:15px;	
+}
+#menu ul li
+{
+	display:inline;
+    padding:15px;
+	margin-left:-10px; 
+	line-height:50px;
+	
+}
+#menu ul li a 
+{
+	color:white	;
+   text-decoration:none;
+   font-family:calibri;
+  font-style:bold;
+   font-size:25px;
+}
+#menu ul li:hover
+{
+	background-color:#62778e;
+}
+#form
+{
+	height:auto;
+	width:100%;
+	float:left;
+	
+	background-color:rgba(0,0,0,0.3);
+}

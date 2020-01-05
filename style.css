@@ -1,0 +1,360 @@
+/*#logo
+{
+	height:200px;
+	width:20%;
+  
+	float:left;
+	
+}
+#ser
+{
+	height:200px;
+	width:70%;
+	
+	margin-left:1000px;
+	margin-top:20px;
+	
+}*/
+#outer
+{
+	height:autopx;
+	width:autopx;
+    /*border:1px solid #889eb5;*/
+	background-image:url("../images/bg.jpg");
+	
+	background-repeat:no-repeat;
+	
+	background-position:absolute;
+	
+	float:left;
+	margin:0px auto;
+
+	
+	
+}
+#menu
+{
+	height:70px;
+	width:98.9%;
+	float:left;
+	
+    background-color:rgba(0,0,0,0.3);
+	
+	
+	
+	
+}
+#menu ul 
+{
+list-style-type:none;
+margin-left:50px;
+}
+#menu ul li
+{
+	display:inline;
+    padding:20px;
+	margin-left:50px; 
+	line-height:50px;
+	
+}
+#menu ul li a 
+{
+	color:white	;
+   text-decoration:none;
+   font-family:calibri;
+  font-style:bold;
+   font-size:25px;
+}
+#menu ul li:hover
+{
+   background-color:#02c2f1;
+   
+}
+#slider
+{
+	height:390px;
+	width:autopx;
+	margin:0px auto;
+	margin-top:-30px;
+	
+	
+	
+}
+#slider img
+{
+	color:black;
+	font-style:bold;
+	font-family:calibri; 
+	font-style:bold;
+	font-size:42px;
+}
+#blocks
+{
+	height:400px;
+	width:100%;
+	
+}
+#a
+{
+	height:200px;
+	width:25%;
+	/*background-color:#0bb288;*/
+	float:left;
+}
+#b
+{
+	height:200px;
+	width:25%;
+	/*background-color:#646569;*/
+	float:left;
+}
+#c
+{
+	height:200px;
+	width:25%;
+	/*background-color:#af976d;*/
+    float:left;
+}
+#d
+{
+	height:200px;
+	width:25%;
+	/*background-color:lightgrey;*/
+	float:left;
+}
+#dis
+{
+	height:900px;
+	width:100%;
+	float:left;
+	/*background-color:rgba(0,0,0,0.1);*/
+	/*background-image:url("../images/bg3.jpg");*/
+	opacity:0.9;
+}
+#an
+{
+	height:500px;
+	width:45%;
+	float:left;
+	
+	
+}
+#at
+{
+	height:500px;
+	width:45%;
+	margin-left:130px;
+	float:left;
+	/*background-color:red;*/
+}
+#doctors
+{
+	height:700px;
+	width:100%;
+	margin-top:25px;
+    background-color:rgba(0,0,0,0.1);
+	float:left;
+	
+	
+}
+#pic
+{
+	float:right;
+	margin-right:29px;
+}
+#theory
+{
+	float:left;
+}
+#slide
+{
+	height:800px;
+	width:100%;
+	float:left;
+	border:1px solid transparent;
+	margin-top:440px;
+}
+#goals
+{
+	height:465px;
+	width:100%;
+	float:left;
+	border:1px solid transparent;
+	background-color:rgba(0,0,0,0.1);
+	
+}
+#picc
+{
+	height:359px;
+	width:40%;
+	float:left;
+	border:1px solid transparent;
+	margin-top:20px;
+	margin-left:20px;
+}
+#line
+{
+	height:359px;
+	width:40%;
+	float:left;
+	border:1px solid transparent ;
+	margin-top:20px;
+	margin-left:150px;
+	
+	
+}
+#line p
+{
+	font-size:20px;
+	font-family:roboto;
+	
+}
+
+#up
+{
+	height:400px;
+	width:100%;
+	background-color:#808080;
+	float:left;
+	margin-top:70px;
+	
+	
+}
+#fi
+{
+	height:250px;
+	width:20%;
+	background-color:#808080;
+	margin-top:50px;
+	margin-left:30px;
+	float:left;
+}
+#fi a
+{
+	text-decoration:none;
+	color:white;
+	font-family:calibri;
+	font-size:19px;
+	margin-left:5px;
+}
+#fi p
+{
+	text-align:justify;
+	color:white;
+	font-family:calibri;
+	font-size:19px;
+}
+#dn
+{
+	height:250px;
+	width:20%;
+	background-color:#808080;
+	margin-top:50px;
+	margin-left:110px;
+	float:left;
+
+}
+
+#dn a
+{
+	text-decoration:none;
+	color:white;
+	font-family:calibri;
+	font-size:20px;
+}
+#dn ul li
+{
+	list-style-type:none;
+}
+#dn ul li a 
+{
+	text-decoration:none;
+	margin-left:-35px;
+}
+#hn
+{
+	height:250px;
+	width:20%;
+	background-color:#808080;
+	margin-top:50px;
+	margin-left:50px;
+	float:left;
+	
+
+}
+#hn a
+{
+	text-decoration:none;
+	color:white;
+	font-family:calibri;
+	font-size:20px;
+}
+#hn ul li
+{
+	list-style-type:none;
+}
+#hn ul li a 
+{
+	text-decoration:none;
+	margin-left:-35px;
+}
+#con
+{
+	height:250px;
+	width:20%;
+	background-color:#808080;
+	margin-top:50px;
+	margin-left:50px;
+	float:left;
+
+}
+#con a
+{
+	text-decoration:none;
+	color:white;
+	font-family:calibri;
+	font-size:20px;
+}
+#con ul li
+{
+	list-style-type:none;
+}
+#con ul li a 
+{
+	text-decoration:none;
+	margin-left:-35px;
+}
+#footer
+{
+	height:50px;
+	width:100%;
+	background-color:#808080;
+	
+	opacity:0.9px;
+	float:left;
+	border:1px solid transparent;
+}
+#left
+{
+	height:50px;
+	width:80%;
+	
+	float:left;
+	margin-left:10px;
+	font-family:calibri;
+	color:lightgrey;
+	font-size:18px;
+}
+#right
+{
+	height:50px;
+	width:20%;
+	float:right;
+	
+	margin-right:-200px;
+	font-family:calibri;
+	color:lightgrey;
+	font-size:18px;
+	border:1px solid transparent;
+
+}

@@ -1,0 +1,140 @@
+#outer
+{
+	height:900px;
+	width:auto;
+	background-image:url("../images/kit.jpg");
+}
+#menu
+{
+	height:100px;
+	width:100%;
+	float:left;
+    background-color:rgba(0,0,0,0.4);
+	
+	
+	
+}
+#menu ul 
+{
+list-style-type:none;
+/*margin-left:50px;*/
+}
+#menu ul li
+{
+	display:inline;
+    padding:20px;
+	
+	line-height:50px;
+	
+}
+#menu ul li a 
+{
+	color:white	;
+   text-decoration:none;
+   font-family:calibri;
+  font-style:bold;
+   font-size:20px;
+}
+#menu ul li:hover
+{
+   background-color:#02c2f1;
+   
+}
+#container
+{
+	height:800px;
+	width:100%;
+	float:left;
+	
+
+	background-color:rgba(0,0,0,0.4);
+	border:1px solid transparent;
+}
+#face
+{
+	height:200px;
+	width:80%;
+	float:left;
+	margin-left:10%;
+	border:1px solid transparent;
+}
+
+#selection
+{
+
+	height:200px;
+	width:100%;
+	float:left;
+		
+	
+	border:1px solid transparent;	
+}
+#suggestion
+{
+	height:70px;
+	width:20%;
+	float:left;
+	margin-left:50px;
+	border:1px solid;
+	border-radius:10px;
+
+	
+}
+#nw
+{
+	height:70px;
+	width:20%;
+	float:left;
+	border:1px solid;
+	margin-left:150px;
+	border-radius:10px;
+}
+#comp
+{
+	height:70px;
+	width:20%;
+	float:left;
+	border:1px solid;
+	margin-left:150px;
+	border-radius:10px;
+}
+#feedback
+{
+	height:200px;
+	width:100%;
+	border:1px solid transparent;
+	float:left;	
+}
+#footer
+{
+	height:50px;
+	width:100%;
+	background-color:#808080;
+	opacity:0.9px;
+	margin-top:515px;
+	float:left;
+	border:1px solid transparent;
+}
+#left
+{
+	height:50px;
+	width:80%;
+	float:left;
+	margin-left:10px;
+	
+	font-family:calibri;
+	color:lightgrey;
+	font-size:18px;
+}
+#right
+{
+	height:50px;
+	width:20%;
+	float:right;
+	margin-right:-200px;
+	font-family:calibri;
+	color:lightgrey;
+	font-size:18px;
+	border:1px solid transparent;
+
+}

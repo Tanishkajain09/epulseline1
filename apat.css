@@ -1,0 +1,40 @@
+#outer
+{
+	height:auto;
+	width:100%;
+	background-image:url('../images/kit.jpg');
+	background-size:cover;
+}
+#slidebar
+{
+position:fixed;
+width:220px;
+
+height:625px;
+background:#151719;
+float:left;
+}
+#slidebar.active
+{
+left:0px;
+}
+#slidebar ul li
+{
+color:rgba(230,230,230,0.9);
+list-style:none;
+padding:20px 20px;
+border-bottom:1px solid rgba(100,100,100,0.3);
+font-family:calibri;
+color:white;
+font-size:20px;
+margin-left:-30px;
+}
+#slidebar ul li:hover
+{
+	font-size:20px;
+}
+#slidebar ul li a:hover
+{
+background-color:#ac1c85;
+
+}

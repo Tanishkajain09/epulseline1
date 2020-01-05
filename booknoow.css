@@ -1,0 +1,11 @@
+#outer
+{
+   height:auto;
+   width:100%;
+}
+#container
+{
+	height:1000px;
+	width:100%;
+	border:1px solid;
+}

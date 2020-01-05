@@ -1,0 +1,67 @@
+#outer
+{
+	height:auto;
+	width:100%;
+	
+}
+
+#menu
+{
+	height:60px;
+	width:100%;
+    
+	background:rgba(0,0,0,0.1);
+
+	/*background-color:#ecebe7;*/
+}
+#menu ul 
+{
+list-style-type:none;
+}
+#menu ul li
+{
+	display:inline;
+    padding:20px;
+	line-height:60px;
+	
+}
+#menu ul li a 
+{
+	color:brown;
+   text-decoration:none;
+   font-family:calibri;
+   font-size:25px;
+   
+}
+#menu ul li:hover
+{
+   background-color:#ebeae6;
+   font-style:italic;
+   text-decoration:underline;
+}
+#img
+{
+	height:500px;
+	width:100%;
+	float:left;
+	border:1px solid transparent;
+	
+}
+#pic
+{
+	height:200px;
+	width:25%;
+	background-image:url('../images/pihu.jpg');
+	margin-top:50px;
+	margin-left:50px;
+	box-shadow:2px 2px 5px 5px grey;
+	float:left;
+}
+#theory
+{
+	height:200px;
+	width:65%;
+	float:left;
+    border:1px solid transparent;
+}
+

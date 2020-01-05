@@ -1,0 +1,83 @@
+#outer
+{
+	height:auto;
+	width:100%;
+	float:left;
+	background-image:url('../images/kit.jpg');
+	background-size:cover;
+}
+#menu
+{
+	
+	height:70px;
+	width:98.9%;
+	float:left;
+    background-color:rgba(0,0,0,0.4);
+	position:fixed;
+}
+#menu ul 
+{
+list-style-type:none;
+margin-left:-0px;
+}
+#menu ul li
+{
+	display:inline;
+    padding:15px;
+	margin-left:-10px; 
+	line-height:50px;
+	
+}
+#menu ul li a 
+{
+	color:white	;
+   text-decoration:none;
+   font-family:calibri;
+  font-style:bold;
+   font-size:25px;
+}
+#menu ul li:hover
+{
+	background-color:#62778e;
+}
+#form
+{
+	height:auto;
+	width:100%;
+	float:left;
+	background-color:rgba(0,0,0,0.4);
+	margin-top:70px;
+	font-family:calibri;
+	color:white;
+	font-size:35px;
+	text-decoration: underline;
+}
+#footer
+{
+	height:50px;
+	width:100%;
+	background-color:rgba(0,0,0,0.3);
+	opacity:0.9px;
+	float:left;
+}
+#left
+{
+	height:50px;
+	width:100%;
+	float:left;
+	margin-left:10px;
+	font-family:calibri;
+	color:lightgrey;
+	font-size:18px;
+}
+#right
+{
+	height:50px;
+	width:200px;
+	float:right;
+	margin-left:50px;
+	font-family:calibri;
+	color:lightgrey;
+	font-size:18px;
+    border:1px solid transparent;
+}	

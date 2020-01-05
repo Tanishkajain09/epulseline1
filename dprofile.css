@@ -1,0 +1,84 @@
+#outer
+{ 
+   height:auto;
+   width:100%;
+   background-image:url("../images/bg.jpg");
+   float:left;
+}
+#menu
+{
+	height:100px;
+	width:100%;
+	    background:rgba(0,0,0,0.1);
+		float:left;	
+}
+#menu ul 
+{
+list-style-type:none;
+margin-left:00px;
+}
+#menu ul li
+{
+	display:inline;
+    padding:20px;
+	line-height:60px;
+	margin-left:px;
+	
+}
+#menu ul li a 
+{
+	
+   text-decoration:none;
+   font-family:calibri;
+   color:white;
+   font-size:22px;
+   margin-left:0px;
+}
+#menu ul li:hover
+{
+   background-color:#e0d2c5;
+   
+}
+#sess h2
+{
+	color:white;
+	font-size:50px;
+	margin-top:50px;
+}
+#sess
+{
+	height:800px;
+	width:100%;
+	margin-top:20px;
+	margin-left:;
+	float:left;
+	background:rgba(0,0,0,0.2);
+    color:white;
+    font-family:lucida bright;
+	font-size:40px;
+}
+#footer
+{
+	height:50px;
+	width:100%;
+	background-color:rgba(0,0,0,0.2);
+	float:left;
+}
+#left
+{
+	height:50px;
+	width:80%;
+	float:left;
+	color:white;
+	font-family:calibri;
+	font-size:22px;
+}
+#right
+{
+	height:50px;
+	width:20%;
+	color:white;
+	float:right;
+		font-family:calibri;
+		font-size:22px;
+}

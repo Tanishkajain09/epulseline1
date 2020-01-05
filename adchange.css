@@ -1,0 +1,27 @@
+#outer
+{
+	height:100%;
+	width:100%;
+	background-color:#3ab5e6;
+	float:left;
+	
+	
+}
+#form
+{
+	height:70%;
+	width:40%;
+	float:left;
+	background-color:rgba(0,0,0,0.4);
+	margin-top:150px;	
+	margin-left:420px;
+	border-radius:50px;
+		
+	
+}
+#logo 
+{
+	height:100px;
+	width:700px;
+
+}
